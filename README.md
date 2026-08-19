@@ -45,41 +45,45 @@ Project_FORESIGHT/
 ├── data/
 
 │   ├── raw/              # Raw input datasets
+
 │   │   ├── sales_daily.csv
+
 │   │   ├── sku_master.csv
+
 │   │   ├── calendar.csv
+
 │   │   └── inventory_snapshots.csv
+
 │   └── processed/        # Cleaned and processed data
 │
 ├── notebooks/
+
 │   ├── EDA.ipynb         # Exploratory Data Analysis
+
 │   └── Forecast.ipynb    # Forecasting experiments
 │
-├── src/
-│   ├── pipeline.py       # Data cleaning and processing
-│   ├── forecast.py       # Demand forecasting models
-│   └── risk.py           # Inventory risk prediction
-│
-├── app/
-│   └── streamlit_app.py  # Streamlit dashboard
-
-│
-├── reports/
-│   ├── EDA_Report.pdf
-│   └── Executive_Report.pdf
-│
 ├── requirements.txt
+
 ├── README.md
+
 └── main.py
 
 **Data Sources**
-sales_daily.csv: Daily sales data (Date, SKU, Units Sold, Revenue, Price, Promotion)
+sales_daily.csv: 
 
-sku_master.csv: Product information (SKU, Category, Cost, Price)
+Daily sales data (Date, SKU, Units Sold, Revenue, Price, Promotion)
 
-calendar.csv: Calendar data (Holidays, Seasons, Week, Month)
+sku_master.csv:
 
-inventory_snapshots.csv: Inventory data (Current Stock, Ordered Stock, Lead Time, Reorder Point)
+Product information (SKU, Category, Cost, Price)
+
+calendar.csv: 
+
+Calendar data (Holidays, Seasons, Week, Month)
+
+inventory_snapshots.csv:
+
+Inventory data (Current Stock, Ordered Stock, Lead Time, Reorder Point)
 
 **Project Pipeline**
 
